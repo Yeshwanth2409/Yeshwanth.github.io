@@ -563,6 +563,288 @@ a:hover {
   color: #f43f5e !important;
 }
 
+/* ===== PROFESSIONAL ENHANCEMENTS ===== */
+
+/* Smooth fade-in for sections */
+.ftco-animate {
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Navbar scrolled state — subtle glass effect */
+.ftco-navbar-light.scrolled {
+  background: rgba(10, 10, 26, 0.92) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.3) !important;
+}
+
+/* Navbar brand styling */
+.ftco-navbar-light .navbar-brand {
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+  font-size: 1.15rem !important;
+}
+
+/* Nav link hover glow */
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+  color: #a78bfa !important;
+  text-shadow: 0 0 8px rgba(167, 139, 250, 0.3);
+}
+
+/* Hero section text enhancements */
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+  text-shadow: 0 2px 20px rgba(0,0,0,0.4) !important;
+  letter-spacing: -0.5px !important;
+}
+.owl-carousel.home-slider .slider-item .slider-text h2 {
+  color: rgba(255,255,255,0.85) !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Typing animation cursor blink */
+#typing-animation {
+  border-right: 3px solid #a78bfa;
+  padding-right: 5px;
+}
+
+/* Button refinements */
+.btn {
+  font-weight: 600 !important;
+  letter-spacing: 0.3px !important;
+  border-radius: 6px !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+.btn-white.btn-outline-white {
+  border: 2px solid rgba(255,255,255,0.7) !important;
+  color: #fff !important;
+  background: transparent !important;
+}
+.btn-white.btn-outline-white:hover {
+  background: rgba(255,255,255,0.1) !important;
+  border-color: #fff !important;
+}
+
+/* Section headings — refined */
+.heading-section h2 {
+  font-weight: 800 !important;
+  letter-spacing: -0.5px !important;
+}
+.heading-section h1.big {
+  font-weight: 900 !important;
+  opacity: 0.04 !important;
+}
+
+/* Resume card polish */
+.resume-wrap {
+  border-radius: 12px !important;
+  padding: 28px !important;
+  position: relative;
+  overflow: hidden;
+}
+.resume-wrap::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  transform: translate(30%, -30%);
+}
+.resume-wrap h2 {
+  font-size: 1.3rem !important;
+  letter-spacing: -0.3px !important;
+}
+.resume-wrap .date {
+  font-size: 0.8rem !important;
+  letter-spacing: 0.5px !important;
+  border-radius: 6px !important;
+  padding: 5px 14px !important;
+}
+.resume-wrap ul li {
+  font-size: 0.95rem !important;
+  line-height: 1.75 !important;
+}
+.resume-wrap ul li::marker {
+  color: #8b5cf6;
+}
+
+/* Project cards — glass effect */
+.blog-entry {
+  background: rgba(17, 24, 39, 0.6) !important;
+  border: 1px solid rgba(139, 92, 246, 0.1) !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  padding-bottom: 15px;
+}
+.blog-entry:hover {
+  border-color: rgba(139, 92, 246, 0.3) !important;
+  box-shadow: 0 12px 40px rgba(139, 92, 246, 0.15) !important;
+  transform: translateY(-6px);
+}
+.blog-entry .block-20 {
+  border-radius: 12px 12px 0 0 !important;
+  height: 200px !important;
+}
+.blog-entry .text {
+  padding: 0 18px !important;
+}
+.blog-entry .text .heading {
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+}
+.blog-entry .text p {
+  font-size: 0.9rem !important;
+  line-height: 1.6 !important;
+}
+
+/* Counter blocks — glass style */
+.ftco-counter .block-18 {
+  border-radius: 12px !important;
+  padding: 25px 15px !important;
+  transition: all 0.3s ease !important;
+}
+.ftco-counter .block-18:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.2) !important;
+  border-color: rgba(139, 92, 246, 0.3) !important;
+}
+.ftco-counter .text strong.number {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+}
+.ftco-counter .text span {
+  font-size: 0.85rem !important;
+  letter-spacing: 0.3px !important;
+  opacity: 0.85;
+}
+
+/* Contact boxes — hover effect */
+.contact-section .box {
+  transition: all 0.3s ease !important;
+  padding: 30px 20px !important;
+}
+.contact-section .box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.15) !important;
+  border-color: rgba(139, 92, 246, 0.3) !important;
+}
+.contact-section .box .icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  background: rgba(139, 92, 246, 0.1) !important;
+  border-radius: 50% !important;
+}
+.contact-section .box .icon span {
+  font-size: 24px !important;
+}
+
+/* Footer social icons — refined */
+.ftco-footer-social li a {
+  width: 45px !important;
+  height: 45px !important;
+  border-radius: 10px !important;
+  transition: all 0.3s ease !important;
+}
+.ftco-footer-social li a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4) !important;
+}
+
+/* About section image — subtle border */
+.about-img img {
+  border: 3px solid rgba(139, 92, 246, 0.2) !important;
+  border-radius: 12px !important;
+}
+
+/* Skill bars — refined labels */
+.skill-mf span {
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.2px !important;
+}
+
+/* Core Competencies box polish */
+.core-competencies-box {
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* About info list — refined spacing */
+.about-info li {
+  padding: 10px 0 !important;
+  font-size: 0.93rem !important;
+}
+.about-info li span:first-child {
+  min-width: 160px !important;
+  font-size: 0.9rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Chatbot button — pulse animation */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4); }
+  50% { box-shadow: 0 4px 25px rgba(139, 92, 246, 0.7); }
+}
+#chatbot-button {
+  animation: pulse-glow 2s ease-in-out infinite;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.3px;
+}
+#chatbot-button:hover {
+  transform: scale(1.05);
+  animation: none;
+  box-shadow: 0 6px 25px rgba(139, 92, 246, 0.6) !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.5);
+}
+
+/* Selection color */
+::selection {
+  background: rgba(139, 92, 246, 0.3);
+  color: #fff;
+}
+
+/* Smooth transitions for all interactive elements */
+a, button, .btn, .box, .block-18, .resume-wrap, .blog-entry {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Hire me section refinement */
+.ftco-hireme h2 {
+  font-weight: 800 !important;
+  font-size: 2rem !important;
+  letter-spacing: -0.5px !important;
+}
+.ftco-hireme h4 {
+  font-weight: 400 !important;
+  font-size: 1.1rem !important;
+  opacity: 0.9;
+}
+
+/* Resume link text in contact */
+.contact-section .box p a {
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
 </style>
 
 
@@ -871,7 +1153,7 @@ a:hover {
 
     		<div class="row justify-content-center mt-5">
     			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="https://docs.google.com/document/d/1sgVnUAGHcNlBq1bcsE-7jdIxcuv8RZ2KLwMGpOfQFKw/edit?usp=sharing" class="btn btn-primary py-4 px-5">Download Full Resume (PDF)</a></p>
+    				<p><a href="https://docs.google.com/document/d/16neWU9qxsFbQC5pi_RqxO9nHAYbXRxfg/edit?usp=sharing&ouid=117165368829042745098&rtpof=true&sd=true" class="btn btn-primary py-4 px-5">Download Full Resume (PDF)</a></p>
     			</div>
     		</div>
 
@@ -1064,7 +1346,7 @@ a:hover {
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="https://docs.google.com/document/d/1sgVnUAGHcNlBq1bcsE-7jdIxcuv8RZ2KLwMGpOfQFKw/edit?usp=sharing">resumelink</a></p>
+	            <p><a href="https://docs.google.com/document/d/16neWU9qxsFbQC5pi_RqxO9nHAYbXRxfg/edit?usp=sharing&ouid=117165368829042745098&rtpof=true&sd=true">View Resume</a></p>
 	          </div>
           </div>
 
@@ -1133,7 +1415,7 @@ a:hover {
 		<span>Chat with Yeshwanth 🤖</span>
 		<button onclick="closeChat()">✖</button>
 	</div>
-	<iframe id="chatbot-iframe" src="https://Yeshwanth240901-career-conversation2.hf.space" width="100%" height="100%" frameborder="0"></iframe>
+	<iframe id="chatbot-iframe" src="https://Yeshwanth240901-dev-chat1.hf.space" width="100%" height="100%" frameborder="0"></iframe>
 	</div>
 
 	<style>
@@ -1200,6 +1482,16 @@ a:hover {
 	function closeChat() {
 		document.getElementById("chatbot-popup").style.display = "none";
 	}
+
+	// Navbar scroll effect
+	window.addEventListener('scroll', function() {
+		var navbar = document.getElementById('ftco-navbar');
+		if (window.scrollY > 50) {
+			navbar.classList.add('scrolled');
+		} else {
+			navbar.classList.remove('scrolled');
+		}
+	});
 	</script>
 	
   </body>
